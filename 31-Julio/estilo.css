@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Grey+Qo&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Slab:wght@100..900&display=swap');
+/* POPO */
+/*main{
+    padding: 8rem;
+    border: 20px black solid;
+    margin: 5rem;
+    border-radius: 2rem;*/
+
+
+
+
+.parrafo {
+   line-height:1.5;
+    color: rgb(9, 148, 102);
+    font-family: 'Times New Roman', Times, serif;
+}
+/* XD */
+
+/* reticula */
+body {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+header {
+    background-color:rgb(97, 101, 202);
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+
+header li {
+    list-style: none;
+    display: inline-block;
+    padding: 1rem;
+}
+
+header a {
+    text-decoration: coral;
+    color: darkorchid;
+    transition: all .3s ease 0s;
+}
+
+
+header a:hover {
+    background-color: deeppink;
+    color: coral;
+}
+
+
+figcaption {
+
+ font-family: "promt"; sans-serif;
+ font-weight: 280;
+ font-style: normal;
+ font-size: 0rem;
+ padding: 1rem 0;
+
+}
+pre,cite {
+   
+    font-style: normnal;
+    line-height: 2;
+}
+#logo{ 
+    width: 30%;
+
+}
+main { 
+    grid-column-start: 1;
+    grid-column-end: 3;
+    padding: 1rem;
+}
+footer { 
+    background-color: blueviolet;
+    padding: 2rem;
+    grid-column-start: 1;
+    grid-column-end: 4;
+
+}
+    
+img{
+    object-fit: cover;
+    width: 100%;
+}
