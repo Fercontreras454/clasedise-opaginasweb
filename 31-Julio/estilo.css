@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Grey+Qo&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Slab:wght@100..900&display=swap');
-/* POPO */
+/* Sanrio */
 /*main{
     padding: 8rem;
     border: 20px black solid;
@@ -27,7 +27,7 @@ nav {
     justify-content: space-between;
 }
 header {
-    background-color:rgb(97, 101, 202);
+    background-color:rgb(229, 135, 172);
     grid-column-start: 1;
     grid-column-end: 4;
 }
@@ -40,8 +40,8 @@ header li {
 }
 
 header a {
-    text-decoration: coral;
-    color: darkorchid;
+    text-decoration: rgb(78, 165, 236);
+    color: rgb(181, 91, 226);
     transition: all .3s ease 0s;
 }
 
@@ -54,7 +54,7 @@ header a:hover {
 
 figcaption {
 
- font-family: "promt"; sans-serif;
+ font-family: "promt"; 
  font-weight: 280;
  font-style: normal;
  font-size: 0rem;
