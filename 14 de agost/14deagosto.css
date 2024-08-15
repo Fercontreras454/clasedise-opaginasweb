@@ -1,0 +1,78 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://unpkg.com/@uiw/reset.css/reset.css');
+h1 {
+
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-optical-sizing: auto;
+font-weight: 400;
+font-style: normal;
+}
+
+header {
+  background-color: rgb(39, 70, 210);
+}
+main{
+ background-color: skyblue;
+
+}
+aside{
+background-color: cornflowerblue;
+
+}
+ footer{
+
+background-color: rgb(237, 212, 69);
+ }
+
+ /*diseño responsivo con media* queries movil*/
+
+ @media (max-width: 600px) {
+
+    #container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto 1fr auto;
+        height: 100vh;
+        gap: 1rem;
+     }
+ }
+ /*body{
+    background-color: rgb(207, 202, 142);
+ } /*
+
+ /*diseño reponsivo con media queries, tablet para arriba*/
+ 
+
+ @media (min-width: 600px) {
+
+/*body {
+backround: ;
+ } */
+
+ #container {
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+    grid-template-rows: auto 2fr auto;
+    height: 100vh;
+    grid-template-areas: 
+    "cabeza cabeza cabeza"
+    "principal principal lado"
+    "pie pie pie"
+    ;
+ }
+ header {
+    grid-area: cabeza;
+ }
+ main{
+
+    grid-area: principal;
+ }
+ aside{
+    grid-area: lado;
+ }
+ footer{
+    grid-area: pie;
+ }
+}
+
