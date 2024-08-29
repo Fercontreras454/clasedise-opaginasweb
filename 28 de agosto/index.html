@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>libreria</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <div class="container"> 
+        <header class="cabeza"> 
+<p>Header</p>
+       
+        </header class="head"> 
+<main class="aside">
+<h1>vivus y scroll reveal</h1>
+<p>Vivus es una clase JavaScript liviana (sin dependencias) que te permite animar SVG, dándoles la apariencia de estar dibujados. Hay una variedad de animaciones diferentes disponibles, así como la opción de crear un script personalizado para dibujar tu SVG de la forma que desees.</p>
+<div id="my-div"></div>
+</main>
+<aside>
+    <p>aisde.</p>
+</aside>
+        <footer>
+            <p>Footer.</p>
+        </footer>
+    </div>
+<script src="js/vivus.js"></script>
+<script>
+    new Vivus('my-div', {duration: 200, type:'oneByOne', file:'img/caritafeliz.svg'},);
+</script>
+
+<script src="https://unpkg.com/scrollreveal"></script>
+<script>
+    ScrollReveal().reveal('.cabeza', { delay: 1000 });
+    ScrollReveal().reveal('.aside', { delay: 500 });
+</script>
+
+
+</body>
+</html>
